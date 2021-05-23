@@ -6,7 +6,7 @@ The data is collected as the emissions (in tons) from particualr source in the e
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # 1. Data and its origin
 Data size is 29 MB. It is in the zip file with two units: The following array of data provides glimpses on how the first rows of the data looks like.
- ##      fips  SCC   Pollutant Emissions    type            year
+  no.     fips  SCC   Pollutant Emissions    type            year
  ##4    09001 10100401  PM25-PRI          15.714 POINT      1999
  ##8    09001 10100404  PM25-PRI          234.178 POINT     1999
  ##12   09001 10100501  PM25-PRI           0.128 POINT      1999
@@ -25,7 +25,7 @@ How to use Source Classification Code Table (Source_Classification_Code.rds)?
 Via this table, a mapping from the SCC digit strings in the Emissions table to the actual name of the PM2.5 source is done. The categories of sources are done in a few different ways from more general to more specific and freedom resides on user on choosing and expolring that he/she thinks to be useful. For instance, source “10100101” is categorized as “Ext Comb /Electric Gen /Anthracite Coal /Pulverized Coal”.
 
 The reading of each of the two files is done through readRDS() function in R.  The following code provides an expample of doing so as long as the current file is in the current working directory (This can be checked by calling dir() and see if those files are in the listing) 
-## This first line will likely take a few seconds. Be patient!
+This first line will likely take a few seconds. Be patient!
 NEI <- readRDS("summarySCC_PM25.rds")
 SCC <- readRDS("Source_Classification_Code.rds")
 
