@@ -23,8 +23,8 @@ names(Baltimore.Emissions)[1] <- "year"
 png("plot2.png")
 barplot(Baltimore.Emissions$x,
         Baltimore.Emissions$year,
-        ylab = "PM2.5",
-        xlab = "Years",
+        y_lab = "PM2.5",
+        x_lab = "Years",
         names.arg = Baltimore.Emissions$year,
         main = "Total PM2.5 emission in Baltimore City, Maryland")
 dev.off()
