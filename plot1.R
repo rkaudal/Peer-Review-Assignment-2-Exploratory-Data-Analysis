@@ -17,8 +17,8 @@ names(Emissions)[1] <- "Year"
 png("plot1.png")
 barplot(Emissions$x,
         Emissions$Year,
-        ylab = "PM2.5",
-        xlab = "Year",
+        y_lab = "PM2.5",
+        x_lab = "Year",
         names.arg = Emissions$Year,
         main = "Total PM2.5 emission"
 )
