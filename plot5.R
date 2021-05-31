@@ -11,7 +11,7 @@ NEI <- readRDS("summarySCC_PM25.rds")
 SCC <- readRDS("Source_Classification_Code.rds")
 
 ## plot 5: How is the motor emissions changed in Baltimore city over the time span on which the data are collected?
-Baltimore.NEI <- subset(NEI, fips=="24510" & type=="ON-ROAD")
+Baltimore.NEI <- subset(NEI, fips == "24510" & type == "ON-ROAD")
 
 ## Aggregated emissions
 Baltimore.Emissions.motor <- aggregate(Baltimore.NEI$Emissions, 
