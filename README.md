@@ -1,6 +1,6 @@
 # Peer-Review-Assignment-2-Exploratory-Data-Analysis
-Mission statement of the assignemnt: Explore the National Emissions Inventory database and see what it say about fine particulate matter pollution in the United states over the 10-year period 1999–2008. 
-Background: Fine particulate matter (PM2.5), the hazardous air pollutant detrimental to human health, is monitored by United States, Environmental Protection Agencey (EPA). It keesp track of the emissions of the pollutant in the atmosphere. EPA releases database on emissions of PM2.5 which is referred as Natioanl Emissions Inventory(NEI) as linked in http://www.epa.gov/ttn/chief/eiinformation.html
+Mission statement of the assignemnt: Explore the National Emissions Inventory database and see what it says about fine particulate matter pollution in the United states over the 10-year period 1999–2008. 
+Background: Fine particulate matter (PM2.5), the hazardous air pollutant detrimental to human health, is monitored by United States, Environmental Protection Agencey (EPA). It keeps track of the emissions of the pollutant in the atmosphere. EPA releases database on emissions of PM2.5 which is referred as Natioanl Emissions Inventory(NEI) as linked in http://www.epa.gov/ttn/chief/eiinformation.html
 The data is collected as the emissions (in tons) from particualr source in the entire year (the data we will be using are for years: 1999, 2002, 2005, 2008). The breath of the assignmnet encompasses 1. Data and its origin 2. queries that data addresses 3. communicate the results
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
